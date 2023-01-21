@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Survey Form - Page 2</title>
+
+		<link rel="stylesheet" href="/styles/global/global.css" />
+		<link rel="stylesheet" href="/styles/app.css" />
+		<script type="module" src="/dist/bundle.js"></script>
+	</head>
+
+	<body>
+		<main>
+			<figure>
+				<img src="/img/imagem2.svg" alt="" />
+			</figure>
+
+			<article id="container">
+				<section class="content">
+					<form method="post">
+						<section>
+							<fieldset>
+								<label for="account_status">What is the status of your account?</label>
+								<select name="account_status" id="account_status">
+									<option value="" disabled selected>Please select an option</option>
+									<option value="Don't have an account">I have not created an account yet</option>
+									<option value="Have an account">I already have an account</option>
+									<option value="Inactive account">My account was inactive</option>
+								</select>
+							</fieldset>
+
+							<fieldset class="radio-input">
+								<legend>In which financial markets do you operate?</legend>
+
+								<div>
+									<input type="radio" name="financial_market" id="stock_market" class="radio" value="Stock market" />
+									<label for="stock_market">stock market</label>
+								</div>
+
+								<div>
+									<input
+										type="radio"
+										name="financial_market"
+										id="foreign_exchange"
+										class="radio"
+										value="Foreign exchange"
+									/>
+									<label for="foreign_exchange">foreign exchange</label>
+								</div>
+
+								<div>
+									<input type="radio" name="financial_market" id="commodity" class="radio" value="Commodity" />
+									<label for="commodity">commodity</label>
+								</div>
+
+								<div>
+									<input type="radio" name="financial_market" id="bond_market" class="radio" value="Bond market" />
+									<label for="bond_market">bond market</label>
+								</div>
+
+								<div>
+									<input
+										type="radio"
+										name="financial_market"
+										id="cryptocurrency_market"
+										class="radio"
+										value="Cryptocurrency market"
+									/>
+									<label for="cryptocurrency_market">cryptocurrency market</label>
+								</div>
+							</fieldset>
+						</section>
+
+						<footer>
+							<div class="two-btn">
+								<button type="reset" class="backBtn btn">Back</button>
+
+								<button type="submit" class="nextBtn btn">Next</button>
+							</div>
+
+							<div class="single-btn">
+								<button type="reset" class="skipBtn btn">Skip</button>
+							</div>
+						</footer>
+					</form>
+				</section>
+			</article>
+		</main>
+	</body>
+</html>
