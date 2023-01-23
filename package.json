@@ -1,0 +1,38 @@
+{
+  "name": "challenger-estagio",
+  "version": "0.0.1",
+  "description": "1º DESAFIO PB AWS REACT",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1cezar/challengerOne.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Typescript"
+  ],
+  "author": "Cezar Rocha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1cezar/challengerOne/issues"
+  },
+  "devDependencies": {
+		"lite-server": "^2.6.1",
+		"ts-loader": "^9.4.2",
+		"typescript": "^4.9.4",
+		"webpack": "^5.75.0",
+		"webpack-cli": "^5.0.1",
+		"webpack-dev-server": "^4.11.1"
+	},
+	"dependencies": {
+		"jsdoc": "^4.0.0"
+	},
+  "homepage": "https://github.com/1cezar/challengerOne#readme"
+}
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Survey Form - Page 3</title>
+
+		<link rel="stylesheet" href="/styles/global/global.css" />
+		<link rel="stylesheet" href="/styles/app.css" />
+		<script type="module" src="/dist/bundle.js"></script>
+	</head>
+
+	<body>
+		<main>
+			<figure>
+				<img src="/img/imagem3.svg" alt="" />
+			</figure>
+
+			<article id="container">
+				<section class="content">
+					<form method="post">
+						<section>
+							<fieldset>
+								<label for="investment_type">How do you decide to invest?</label>
+								<select name="investment_type" id="investment_type">
+									<option value="" disabled selected>Please select an option</option>
+									<option value="Start-up investments">I have not invested yet</option>
+									<option value="Safe investments">I want safe investments</option>
+									<option value="Risk investments">I want investments with high return</option>
+								</select>
+							</fieldset>
+
+							<fieldset class="check-input">
+								<legend>What resources have you used or are you using for your training?</legend>
+
+								<div>
+									<input
+										type="checkbox"
+										name="resources_training"
+										id="books_article"
+										class="check"
+										value="Books and article"
+									/>
+									<label for="books_article">Books and articles</label>
+								</div>
+
+								<div>
+									<input
+										type="checkbox"
+										name="resources_training"
+										id="tutorial_videos"
+										class="check"
+										value="YouTube tutorial videos"
+									/>
+									<label for="tutorial_videos">YouTube tutorial videos</label>
+								</div>
+
+								<div>
+									<input
+										type="checkbox"
+										name="resources_training"
+										id="courses"
+										class="check"
+										value="Online or face to face courses"
+									/>
+									<label for="courses">Online or face to face courses</label>
+								</div>
+
+								<div>
+									<input
+										type="checkbox"
+										name="resources_training"
+										id="little_investment"
+										class="check"
+										value="Experience with little investment"
+									/>
+									<label for="little_investment">Experience with little investment</label>
+								</div>
+							</fieldset>
+						</section>
+
+						<footer>
+							<div class="two-btn">
+								<button type="reset" class="backBtn">Back</button>
+
+								<button type="submit" class="nextBtn">Next</button>
+							</div>
+
+							<div class="single-btn">
+								<button type="reset" class="skipBtn btn">Skip</button>
+							</div>
+						</footer>
+					</form>
+				</section>
+			</article>
+		</main>
+	</body>
+</html>

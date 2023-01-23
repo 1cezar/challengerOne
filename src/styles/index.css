@@ -1,0 +1,59 @@
+figure#imagem0 {
+	transform: translateX(-12.5%);
+}
+
+article#container h1#nameMsg {
+	font-size: 4rem;
+}
+
+article#container p {
+	font-weight: 700;
+	font-size: 2.4rem;
+}
+
+article#container .home-btn {
+	padding: 0.6rem 0;
+	width: 200px;
+
+	align-self: center;
+
+	font-size: 2.2rem;
+}
+
+.home-btn span:last-child {
+	display: none;
+}
+
+.home-btn:hover > span:first-child {
+	display: none;
+}
+.home-btn:hover > span:last-child {
+	display: block;
+}
+
+@media screen and (min-width: 768px) {
+	figure#imagem0 {
+		transform: translateX(0);
+	}
+
+	article#container p {
+		font-size: 2rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	figure#imagem0 {
+		transform: translateX(0);
+	}
+
+	article#container p {
+		font-size: 2.8rem;
+	}
+
+	article#container .home-btn {
+		padding: 1rem 0;
+		width: 250px;
+
+		font-size: 2.4rem;
+	}
+}
