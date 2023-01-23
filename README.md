@@ -22,3 +22,4 @@ npm install
 
 npm start
 ```
+Acesse o site em: http://localhost:8080
